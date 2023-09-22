@@ -15,6 +15,7 @@ public class SecondActivity extends AppCompatActivity {
     protected void onRestart() {
         super.onRestart();
         Log.e("Estado: ","7- estoy en el metodo restart second");
+        this.onDestroy();//no se suele usar mucho
     }
 
     @Override

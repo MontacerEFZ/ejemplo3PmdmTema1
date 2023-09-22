@@ -51,5 +51,7 @@ public class ThirdActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_third);
+
+        Log.e("Estado: ","1- estoy en el metodo create third");
     }
 }
