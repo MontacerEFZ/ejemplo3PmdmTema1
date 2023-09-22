@@ -60,10 +60,11 @@ public class SecondActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(SecondActivity.this, ThirdActivity.class);
+                startActivity(intent);
             }
         });
 
-        Log.e("Estado: ","1- estoy en el metodo create second");
+        Log.e("Estado: ","1- estoy en el metodo create secondd");
 
     }
 }
